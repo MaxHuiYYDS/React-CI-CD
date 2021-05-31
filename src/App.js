@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import Quotes from './components/Quotes';
-import quotes from './db/quotes';
-import './App.css';
+import React, { Component } from "react";
+import Quotes from "./components/Quotes";
+import quotes from "./db/quotes";
+import "./App.css";
 
 export default class App extends Component {
   //state
@@ -35,7 +35,9 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <h1 className='text-center'>The Simpsons Quote Generator</h1>
+        <h1 className="text-center">
+          The Simpsons Quote Generator, really enjoining
+        </h1>
         <Quotes
           generateRandomQuote={this.generateRandomQuote}
           quote={this.state}
